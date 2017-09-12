@@ -1,0 +1,33 @@
+<html>
+  <head>
+  <title>mapas</title>
+    <!--Link de mi css de mi-->
+    <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  </head>
+  <body>
+    <h3>My Google Maps Demo</h3>
+    <!--inicio-->
+    <div class="cabecera">
+      <input id="punto-partida">
+      <input id="punto-destino">
+      <button id="trazar-ruta">Trazar ruta</button>
+      <button id="encuentrame">Encuentrame</button>
+    </div>
+  <!--fin-->
+    <div id="map"></div>
+    
+
+
+
+    <script src="assets/js/main.js"></script>
+    <!--SCRIPT DEL MAPA con el generador de api-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcDyqQdKZityQJ2FOelWKO_yrjFFA_7jQ&callback=initMap">
+    </script>
+    <!--JQRY ES PARA TODOS LOS ARCHIVOS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!--Descargando librerias de place google maps js api-->
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcDyqQdKZityQJ2FOelWKO_yrjFFA_7jQ&callback=initMap&libraries=places"></script>
+  </body>
+</html>

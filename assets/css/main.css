@@ -1,0 +1,12 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+div#map {
+	  width: 100%;
+      height: 90vh;
+}
+.cabecera{
+	height: 5vh;
+	background-color: orange;
+}
